@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#cont{
+    min-height: 100vh;
+    background-color: rgb(122, 155, 197);
+    display: flex;
+    justify-content: first baseline;
+    padding: 5%;
+    align-items: center;
+    flex-direction: column;
+    
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+#box{
+    border: 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 12px;
+  padding: 2%;
+  background-color: rgb(255, 255, 255);
+}

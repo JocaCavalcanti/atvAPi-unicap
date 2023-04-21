@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Consultar clima</title>
+    <script defer src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script defer src="/index.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Consultar clima</h1>
+    <div id="cont">
+        <div id="box">
+            <form onsubmit="consultarClima(); return false;">
+                <label for="cidade">Cidade:</label>
+                <input type="text" id="cidade" name="cidade" />
+                <button type="submit">Consultar</button>
+            </form>
+            <div id="resultado"></div>
+        </div>
+    </div>
+  </body>
+</html>
